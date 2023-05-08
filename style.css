@@ -4,3 +4,42 @@
    box-sizing: border-box;
    font-family: 'Poppins',sans-serif;
 }
+.center{
+   max-width: o 1100px;
+   margin: o auto;
+   padding: 0 2%;
+   display: flex;
+}
+header{
+   background-color: white;
+   padding: 20px 0;
+   border-bottom: 2px solid #FE347E;
+}
+.logo{
+   color: #FE347E; 
+}
+
+.menu{
+   width: 80%;
+   text-align: right;
+   text-decoration: none;
+   margin-right: 60px;
+}
+.menu a{
+   color:black;
+   font-size: 14px;
+   text-decoration: none;
+   display: inline-block;
+}
+
+
+.menu .btn_menu{
+   background-color:#FE347E ;
+   display: inline-block;
+   padding: 6px 12px;
+   color:white ;
+   border-radius: 8PX;
+
+}
+
+
