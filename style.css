@@ -3,10 +3,11 @@
    padding: 0;
    box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
+   align-items: center;
  }
  
  .center {
-   max-width: 1100px;
+ 
    margin: 0 auto;
    padding: 0 2%;
    display: flex;
@@ -27,7 +28,7 @@
    width: 80%;
    text-align: right;
    text-decoration: none;
-   margin-right: 60px;
+   margin-right: 100px;
  }
  
  .menu a {
@@ -65,17 +66,20 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  align-items: center;
  }
 
  .main_cta{
   width: 100%;
-  text-align: ceter;
+  text-align: center;
   margin: 60px;
+  align-items: center;
  }
 
  .main_cta .h2{
   color:#FE347E;
   font-size: 40px
+  
  }
 
  .main_cta p{
@@ -95,3 +99,15 @@
   cursor: pointer;
 
  }
+
+.diferenciais {
+  display: flex;
+  align-items: right;
+}
+
+.diferencial_single{
+  background-color: white;
+  width: 24%;
+  margin-right: 1%;
+  padding: 50px 20px;
+}
